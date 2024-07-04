@@ -1,0 +1,41 @@
+body{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: brown;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 2px;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin:10px 20px;
+    font-size: 600;
+}
+.input-div{
+    width: 100%;
+    display: flex;   
+}
+.output-div{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+    
+}

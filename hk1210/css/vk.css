@@ -1,0 +1,72 @@
+:root{
+    --text-color:rgb(221, 172, 12);
+    --heading-font-size: 2.57em;
+}
+body{
+    color: var(--text-color);
+    background-color: rgb(212, 195, 116);
+}
+i{
+    font-size: xx-large;
+    color: brown;
+}
+.company-name{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.57em;
+    font-variant: small-caps;
+}
+li{
+    padding: 0px 10px;
+   
+}
+a{
+    text-decoration-line: none;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    color: var(--text-color);
+    margin: 5px;
+    
+}
+ul{
+    display: flex;
+    margin: 4px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(192, 31, 20);
+    padding: 5px 20px;
+    border-radius: 40px;
+    
+}
+li:hover a{
+    border-bottom:5px solid var(--text-color) ;
+}
+li:active{
+    background-color: greenyellow;
+
+}
+:target{
+    background-color: #290e0e;
+    color: rgb(202, 214, 36);
+    padding: 5px 15px;
+    transition-duration: 5s;
+}
+img{
+    height: 300px;
+    width: 360px;
+    object-fit: cover;
+    object-position: right;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 7px;
+}
+
